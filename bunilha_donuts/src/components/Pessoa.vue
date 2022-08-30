@@ -2,19 +2,19 @@
 <div>
         <h2> Esta é a descrição de nossos donuts: {{ descricaodonuts }}</h2>
     <Info />
-    <Forms />
+    <Form />
 </div>
 </template>
 
 <script>
 import Info from './Info'
-import Forms from './Forms'
+import Form from './Form'
 
 export default {
-    name: 'Pessoas',
+    name: 'Pessoa',
     components: {
         Info,
-        Forms
+        Form
     },
     data() {
         return {
